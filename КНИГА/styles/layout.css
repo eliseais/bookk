@@ -1,0 +1,139 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+h1
+{
+    font-size: 33px;
+    font-weight: bold;
+
+    margin-bottom: 7px; /* Отступ снизу */
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 2px;
+
+    text-align: center;
+
+    color: black;
+}
+h2
+{
+    font-size: 26px;
+    font-weight: 106;
+    /* Harper Lee */
+    font-style: normal;
+
+    margin-bottom: 25px; /* Отступ снизу */
+    padding: 10px;
+    /* font-family: 'Roboto', sans-serif; */
+
+    text-align: center;
+
+    color: black;
+}
+p
+{
+    font-size: 18px;
+    font-weight: 25;
+    font-style: normal;
+    /* font-family: 'Roboto', sans-serif; */
+
+    margin-bottom: 15px;
+
+    color: black;
+}
+img
+{
+    display: block;
+
+    width: 150px;
+    height: 226px;
+    margin: 0 auto;
+    padding: 29px; /* Поля вокруг текста */
+
+    color: black; /* Цвет текста */
+    background: white; /* Цвет фона под заголовком */
+}
+.text-block
+{
+    box-sizing: border-box;
+    width: 320px;
+    margin: 0 auto;
+    padding: 25px;
+}
+a.button24
+{
+    font-size: 19px;
+    font-weight: 37;
+
+    display: inline-block;
+
+    margin-bottom: 25px;
+    padding: .5em 2em;
+
+    transition: .2s;
+
+    color: white;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #00f;
+    border-radius: 6px;
+    outline: none;
+    background: #00f;
+}
+a.button24:hover
+{
+    background: #00f;
+}
+a.button24:active
+{
+    background: #00f;
+}
+a.button25
+{
+    margin: 20px;
+}
+body > header
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+
+    height: 45px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #e5e5e5;
+    background-color: #9f9c98;
+
+    justify-content: space-between;
+    align-items: center;
+}
+body > header ul
+{
+    font-weight: bold;
+
+    display: inline-flex;
+
+    align-items: center;
+}
+
+body > header li
+{
+    font-weight: bold;
+
+    padding-right: 20px;
+}
+#circle
+{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+
+    -webkit-border-radius: 60px;
+       -moz-border-radius: 60px;
+            border-radius: 60px;
+    background: #e5e5e5;
+}
